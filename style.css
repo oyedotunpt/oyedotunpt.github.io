@@ -48,6 +48,10 @@ section{
     gap: 1rem;
     color: black;
 }
+#social-container a{
+    color: black;
+    font-size: 15px;
+}
 .date { 
     font-size: 12px;
     border-radius:10px;
