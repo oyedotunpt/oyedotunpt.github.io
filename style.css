@@ -1,0 +1,104 @@
+body{ 
+    font-family: "poppins", sans-serif;
+}
+html{ 
+    scroll-behavior: smooth;
+}
+section{
+    padding-top: 10vh;
+    height: 80vh;
+    max-width: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+#my-profile{
+    display: flex;
+    justify-content:center;
+    gap: 6rem;
+    height:80vh; 
+}
+.image-container{
+    width:350px;
+    height: 380px;
+    display: flex;
+    border-radius: 60%;
+    gap: 6rem;
+}
+.image-container img{
+    border-radius: 50%;
+}
+
+.my-name{ 
+    align-self: center;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-1{
+    font-weight:600;
+    font-size: 1.8rem;
+}
+.section-p{
+    font-size: 0.9rem;
+    margin-bottom:1rem;
+}
+#social-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    color: black;
+}
+.date { 
+    font-size: 12px;
+    border-radius:10px;
+}
+
+@media only screen and (max-width:600px){
+    section{
+        padding-top: 10vh;
+        height: 40vh;
+        max-width: 0 10rem;
+        box-sizing: border-box;
+        min-height: fit-content;
+    }
+    #my-profile{
+        display: flex;
+        justify-content:center;
+        gap: 2rem;
+        height:80vh; 
+    }
+    .image-container{
+        width:250px;
+        height: 280px;
+        display: flex;
+        border-radius: 60%;
+        gap: 2rem;
+    }
+    .image-container img{
+        border-radius: 50%;
+    }
+    
+    .my-name{ 
+        text-align: center;
+        margin-bottom:40px;
+        padding-bottom: 50px;
+    }
+    .title-1{
+        font-weight:600;
+        font-size:20px;
+    }
+    .title-2{
+        font-size: 14px;
+    }
+    .section-p{
+        font-size:12px;
+        margin-bottom:0.5rem;
+    }
+    #social-container{
+        display:flex;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 1rem;
+        color: black;
+    }
+}
